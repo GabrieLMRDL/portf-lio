@@ -1,0 +1,182 @@
+
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+}
+body{
+    background-color: #000;
+    
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    ;
+}
+.flex{
+    display:flex;
+
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(84, 0, 122);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+button:hover{
+    box-shadow: 0px 0px 8px rgb(84, 0, 122);
+    transform: scale(1.05);
+}
+h2.titulo{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+h2.titulo span{
+    color: rgb(84, 0, 122);;
+
+}
+
+
+/*  ESTILO DO CABEÇALHO  */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display:inline-block;
+    transition: .2s;
+    
+}
+header a:hover{
+    color: rgb(84, 0, 122);
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+
+
+/* estilo do topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+}
+.topo-do-site h2{
+    color: #fff;
+}
+.topo-do-site h1 span{
+    color: rgb(84, 0, 122);
+    font-size: 38px;
+}
+.topo-do-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate; 
+   
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 20px;
+    }
+}
+.img-topo-site img{
+    border-radius: 100px;
+}
+/* SOBRE */
+.topo-do-site .img-topo-site .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+/* formação */
+section.formação{
+    display: flex;
+    padding: 40px 4%;
+    color: #fff;
+
+}
+section.formação .flex{
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.formação .formação-box{
+    color: #fff;
+    border-radius: 20px;
+    transition: .2s;
+}
+span.color{
+    color: rgba(83, 0, 122, 0.247);
+    
+}
+
+.formação .formação-box p{
+    font-size: 18px;
+    padding: 10px ;
+
+}
+.formação .formação-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(84, 0, 122);
+}
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+footer .line-footer p{
+    color: #fff;
+    text-align: center;
+
+}
+

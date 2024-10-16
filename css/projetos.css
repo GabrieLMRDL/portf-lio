@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav-link,
+
+.corpo{
+    background-color: #000;
+}
+/*  ESTILO DO CABEÇALHO  */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display:inline-block;
+    transition: .2s;
+    
+}
+header a:hover{
+    color: rgb(84, 0, 122);
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(84, 0, 122);
+    padding-top: 1%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    
+    
+}
+
+
+
+.card-text,
+.card-title {
+    color: #f1f1f1;
+}
+
+.card-txt {
+    text-justify: left;
+    letter-spacing: -1px;
+    padding: 10px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(41, 41, 38, 0.438);
+}
+
+
+.card {
+    width: 50% !important;
+    box-shadow: 10px 10px 5px rgba(41, 41, 38, 0.438);
+    zoom: 1.1;
+}
+
+.card-body {
+    background-color: #000
+}
+
+
+.card-img-top {
+    border-radius: 50%;
+    padding: 20px;
+    transition: border-radius 1s;
+    box-shadow: 10px 10px 5px rgba(41, 41, 38, 0.438);
+}
+
+.card-img-top:hover {
+    border-radius: 10px;
+}
+
+.img-links {
+    width: 5vw;
+    height: 5vh;
+}
+.move-card,
+.cardmove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 930px) {   
+    .card {
+        width: 90% !important;
+    }
+
+    .card-img-top {
+        box-shadow: none;
+        padding: 20px;
+        border-radius: 0;
+    }
+}
+
